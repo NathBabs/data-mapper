@@ -87,6 +87,12 @@ response
 
 ## Filter Provided Data
 **GET** <br>
+<ul>
+	<li> eqc: equalsIgnoreCase (string) </li> 
+	<li> eq: equalsTo (timestamp and integer) </li> 
+	<li> lt: lessThan (timestamp and integer) </li> 
+	<li> gt: greaterThan (timestamp and integer) </li>
+<ul>
 🌍 endpoint ➜ ``/data-mapper/filter/61e8a05fd331de22d8d3d901?name=eqc:nathaniel&age=eq:27``
 
 response
